@@ -24,7 +24,7 @@ export const navigation = [
 export const sectionIds = navigation.map((item) => item.id)
 
 export const hero = {
-  avatarSrc: 'public/images/myimage.png',
+  avatarSrc: 'dist/images/myimage.png',
   avatarAlt: 'Linkan Kumar Rout — software developer',
   greeting: "Hi, I'm",
   /** Shown in accent style (your name) */
@@ -44,7 +44,7 @@ export const hero = {
 
 export const about = {
   title: 'About Me',
-  imageSrc: 'public/images/myimage.png',
+  imageSrc: 'dist/images/myimage.png',
   imageAlt: 'Developer Image',
   paragraphs: [
     "I'm a software developer focused on maintainable systems—web platforms, services, and tooling that scale. I care about clear requirements, testing where it matters, and shipping incrementally.",
